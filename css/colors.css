@@ -1,0 +1,735 @@
+:root {
+    --color1: #fff;
+    --color2: #759cbf;
+    --color2a: #759cbf;
+    --color3: #0e3c73;
+    --color4: #81ccbe;
+    --color5: #CCCCCC;
+    --color6: #606060;
+    --color7: #0e3c73;
+  }
+/* global */
+.bg-color1 {
+    background-color: var(--color1) !important;
+}
+.bg-color2 {
+    background-color: var(--color2) !important;
+}
+.bg-color2a {
+    background-color: var(--color2a) !important;
+}
+.bg-color3 {
+    background-color: var(--color2) !important;
+}
+.bg-color4 {
+    background-color: var(--color4) !important;
+}
+.bg-color5 {
+    background-color: var(--color5) !important;
+}
+.bg-color6 {
+    background-color: var(--color6) !important;
+}
+.bg-color7 {
+    background-color: var(--color7) !important;
+}
+.txt-color1 {
+    color: var(--color1) !important;
+}
+.txt-color2 {
+    color: var(--color2) !important;
+}
+.txt-color2a {
+    color: var(--color2a) !important;
+}
+.txt-color3 {
+    color: var(--color1) !important;
+}
+.txt-color4 {
+    color: var(--color4) !important;
+}
+.txt-color5 {
+    color: var(--color5) !important;
+}
+.txt-color6 {
+    color: var(--color6) !important;
+}
+.txt-color7 {
+    color: var(--color7) !important;
+}
+.text-gray{
+    color: #B3B3B3;
+}
+body.home{
+    background: var(--color1);
+}
+.btn-home{
+    color: #766a60;
+}
+.btn-home:hover{
+    color: #c0ac9b;
+}
+.btn-orange{
+    color: var(--color1);
+    background: var(--color2a);
+    padding: 9px 24px 9px 24px;
+    border-radius: 17px;
+}
+.btn-orange:hover{
+    color: var(--color1);
+    background: #515963;
+}
+.btn-aqua {
+    color: var(--color1);
+    background: var(--color2);
+    padding: 16px 26px 16px 26px;
+    border-radius: 0px;
+}
+.btn-aqua:hover{
+    color: #5e6d7c;
+}
+.btn-pointer{
+    color: var(--color1);
+    background: var(--color2);
+    border: 1px solid var(--color1);
+    padding: 16px 26px 16px 26px;
+    border-radius: 0px;
+}
+.btn-pointer:hover{
+    color: #5e6d7c;
+}
+.line-right{
+    border-right: solid 1px var(--color3);
+}
+.secundary-page .line-right{
+    border-right: solid 1px var(--color1);
+}
+.home .line-right{
+    border-right: solid 1px var(--color3);
+}
+.bg-white {
+    background: var(--color1);
+}
+.bg-beige {
+    background: #F0F0F0;
+}
+.bg-gray{
+    background: var(--color5);
+}
+img.avatar {
+    border-color: var(--color2a);
+}
+/* .read-more {
+    color: var(--color2a) !important;
+} */
+.read-more:hover {
+    color: var(--color6) !important;
+}
+.txt-appointment .icon {
+    background: var(--color2);
+}
+/* global */
+
+/* header */
+.main-menu-btn {
+    background-color: var(--color7);
+    color: var(--color1);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.main-menu-btn .border-left {
+    border-color: var(--color1);
+}
+.main-menu-btn-icon,
+.main-menu-btn-icon:before,
+.main-menu-btn-icon:after {
+    background: var(--color1);
+}
+.menu-items a,
+.menu-items a:hover,
+.menu-items a:focus{
+    color: #fff;
+}
+.sm,
+.sm ul,
+.sm li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.nav-logo-sm {
+    background: var(--color6);
+}
+.menu-items a.disabled {
+    color: var(--color2);
+}
+.fixed-top {
+    background: #515963;
+    color: var(--color1);
+}
+.fixed-top .menu-items a span.sub-arrow{
+    border-color: var(--color1) transparent transparent transparent;
+}
+header .fixed-top .line {
+    border-right: solid 1px var(--color1);
+}
+.scrollToTop {
+    background-color: var(--color2);
+    color: var(--color1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.65);
+}
+header .active a {
+    color: var(--color1) !important;
+}
+header .active a:hover{
+    color: #ccc !important;
+}
+header .active a span.sub-arrow{
+    border-color: #001D41 transparent transparent transparent !important;
+}
+header .container-location {
+    background: var(--color7);
+}
+header .appt {
+    background: var(--color7);
+}
+header .appt a {
+    color: var(--color1);
+    border-color: transparent;
+}
+header .address {
+    background: var(--color7);
+}
+header .address a {
+    color: var(--color5);
+}
+header .address i {
+    color: var(--color1);
+}
+header .address a:hover, header .phone a:hover, header .appt a:hover {
+    color: #D4D2CA;
+}
+header .social {
+    border: solid 1px var(--color1);
+    color: var(--color1);
+}
+header .social:hover {
+    color: #ccc;
+    border: solid 1px #5B5450;
+}
+header {
+    background: transparent;
+}
+header .btn-appointment {
+    color: var(--color2);
+    border: 0px solid var(--color2a);
+    background: var(--color1);
+}
+/* header */
+
+/* hero */
+.hero h2{
+    color: var(--color1);
+}
+.hero h2 span{
+    color: var(--color1);
+}
+.hero h3{
+    color: var(--color4);
+}
+.hero h3 span{
+    color: var(--color4);
+}
+.hero p {
+    color: #dbd9da;
+}
+.hero h4 {
+    color: var(--color1);
+}
+.hero h4 span{
+    color: var(--color4);
+}
+.hero .container-text4 p {
+    color: var(--color1);
+}
+.hero .container-text4 h3, .hero .container-text4a h3 {
+    color: var(--color1);
+}
+.hero .container-text4 h5 {
+    color: var(--color1);
+}
+.hero .container-text4 h5 span {
+    color: var(--color4);
+}
+.hero .container-text5 h3 {
+    color: var(--color1);
+}
+.hero .container-text5 h4 {
+    color: var(--color1);
+}
+.hero .container-text5 h5 {
+    color: var(--color1);
+}
+.hero .container-text5 h5 span {
+    color: var(--color4);
+}
+.hero .container-text6 h3 {
+    color: var(--color2);
+}
+.hero .container-text6 h4 span {
+    color: var(--color1);
+}
+.hero .container-text6 h5 {
+    color: var(--color1);
+}
+.hero .container-text6 h5 span {
+    color: var(--color4);
+}
+/* hero */
+
+/* calls-outs */
+.calls-outs {
+    background-color: var(--color1);
+}
+.calls-outs h3{
+    color: var(--color2);
+}
+.calls-outs p {
+    color: var(--color7);
+}
+.calls-outs a {
+    color: var(--color1);
+}
+.about-calls a {
+    color: var(--color1);
+}
+/* calls-outs */
+
+/* meet-doc */
+.meet-doc h2 {
+    color: var(--color1);
+}
+.meet-doc h3 {
+    color: var(--color3);
+}
+.meet-doc h4{
+    color: var(--color4);
+}
+.meet-doc .meet-doc-mid p {
+    color: var(--color3);
+}
+.meet-doc p.text-gray span {
+    color: var(--color1);
+}
+
+/* patient-experience */
+.patient-experience h2, .patient-experience2 h2{
+    color: var(--color6);
+}
+.patient-experience h3, .patient-experience2 h3 {
+    color: var(--color2);
+}
+.patient-experience p, .patient-experience2 p{
+    color: var(--color5);
+}
+/* patient-experience */
+
+/* hero-reviews */
+.hero-reviews .container-left {
+    background: #fff;
+}
+.hero-reviews .container-right {
+    background: #e5f4ff;
+}
+.hero-reviews .container-right .service-text {
+    background-color: var(--color7);
+    color: var(--color1);
+}
+.hero-reviews .container-right .service-text .square {
+    background-color: var(--color2);
+}
+.hero-reviews hr.border {
+    border-color: var(--color3) !important;
+}
+.hero-reviews h2{
+    color: var(--color2) ;
+}
+.hero-reviews h3 {
+    color: var(--color2);
+}
+.hero-reviews p {
+    color: var(--color6);
+}
+.bg-reviews {
+    background: var(--color1);
+}
+.bg-reviews2 {
+    background: var(--color2);
+}
+.bg-reviews3 {
+    background: var(--color2);
+}
+/* hero-reviews */
+
+/* services */
+.services h1, .about h1{
+    color: var(--color3);
+}
+
+.services p {
+    color: var(--color5);
+}
+.services .container-btn-service{
+    background: #582d4a;
+}
+.services .border-container {
+    border-color: #e5f4ff;
+}
+.services .container-btn-service a {
+    color: var(--color1);
+}
+.services .line-right{
+    border-right: solid 1px var(--color1);
+}
+/* services */
+
+/* nu enhanced serv! */
+.secundary-page .page-intro2 h2, .secundary-page .page-intro2 h3{
+    color: var(--color3) !important;
+}
+.secundary-page .dent-serv h2, .secundary-page .dent-serv h3, .dent-serv2 h4, .dent-serv3 h4 {
+    color: var(--color2) !important;
+}
+.secundary-page .dent-serv p, .dent-serv-list li, .dent-serv-list li span, .secundary-page .dent-serv3 p span, .secundary-page .dent-serv2 p span {
+    color: var(--color6) !important;
+}
+.secundary-page .dent-serv2 p, ul.dent-serv-list2 li, .secundary-page .dent-serv2 h2 {
+    color: var(--color6) !important;
+}
+.secundary-page .dent-serv3 h2, .secundary-page .dent-serv3 p {
+    color: var(--color6) !important;
+}
+.btn-1{
+    color: var(--color2) !important;
+}
+.btn-home5{
+    color: var(--color1);
+    border: 0px solid var(--color1);
+    background: var(--color2);
+}
+.btn-home5:hover{
+    color: var(--color6);
+    border: 0px solid var(--color6);
+}
+
+/* reviews */
+.reviewws .rev-text {
+    background: var(--color2);
+}
+.reviewws .container-right {
+    background: var(--color5);
+}
+.reviewws h6 {
+    color: var(--color3);
+}
+.reviewws h3 {
+    color: var(--color3);
+}
+.reviewws p {
+    color: var(--color3);
+}
+.quotation-mark {
+    color: var(--color3);
+}
+/* reviews */
+
+/* footer */
+footer {
+    background: var(--color7);
+}
+footer .icon-footer i, footer .btn-home {
+    color: var(--color1);
+}
+footer a, footer ul li, footer p {
+    color: var(--color5);
+}
+footer .container-hours .pat-hrs ul li {
+    list-style-type: none;
+    color: var(--color1);
+}
+footer .container-hours .pat-res ul li {
+    list-style-type: none;
+    color: var(--color1);
+}
+footer h2 {
+    color: var(--color1);
+}
+footer h3 {
+    color: var(--color1) !important;
+}
+footer .appt-foot a.text-phone{
+    border: solid 1px var(--color1)!important;
+    color: var(--color1) !important;
+}
+footer .appt-foot a.text-phone:hover{
+    border: solid 1px var(--color1);
+    color: var(--color1) !important;
+}
+footer a:hover {
+    color: var(--color1) !important;
+}
+footer .social {
+    border: solid 1px var(--color3);
+    color: var(--color1);
+}
+footer .social:hover {
+    color: #ccc;
+    border: solid 1px #5B5450;
+}
+/* footer .social a {
+    border: solid 1px var(--color2);
+    color: var(--color2);
+} */
+/* footer .social a {
+    color: var(--color1);
+    border: solid 1px var(--color2a);
+} */
+/* footer .social a:hover{
+    border: solid 1px var(--color7);
+    color: var(--color7);
+} */
+.copyright {
+    background: var(--color7) !important;
+}
+.copyright p,
+.copyright a {
+    color:  var(--color1)
+}
+/* footer */
+
+/* content secundary */
+.secundary-page{
+    background: var(--color1);
+}
+.secundary-page .content-secundary h2, .secundary-page .content-secundary h3, .secundary-page .content-secundary h4, .secundary-page, .secundary-page .comp1-p p, .secundary-page .comp3-p p span, .secundary-page .content-secundary .digital-smile h4 a, .ul-services ul li a, .secundary-page .comp3-p a {
+    color: var(--color7) !important;
+}
+.content-secundary .content-patient-forms a, .secundary-page .content-secundary h1{
+    color: var(--color3);
+}
+.secundary-page .content-secundary h2{
+    color: var(--color2);
+}
+.secundary-page .content-secundary .about-text h3 {
+    color: var(--color7) !important;
+}
+.secundary-page .content-secundary .team-pics h4, .secundary-page .content-secundary .revvs h4 {
+    color: var(--color3) !important;
+}
+.secundary-page .contact-p a {
+    color: var(--color2);
+}
+/* body copy */
+.content-secundary p span, .secundary-page .contact-p p, .secundary-page .content-secundary p, .secundary-page .content-secundary p a, .secundary-page .reviews-body p, .home .reviews-body p, .comp3-p p, .secundary-page .content-secundary .who-benefit p, .section-7 .second-opinion p span, .section-4 p span, .section-3 p, .secundary-page .contact-p-hour ul li {
+    color: var(--color7) !important;
+}
+/* body copy */
+.secundary-page .content-secundary .philosophee h4, .secundary-page .contact-p h4 a, .contact-p h5 a, .secundary-page .contact-p ul li  {
+    color: var(--color7) !important;
+}
+.secundary-page .content-secundary .airway3-p ul li, .secundary-page .content-secundary .blog a {
+    color: var(--color1) !important;
+}
+ .secundary-page .content-secundary ul li, .secundary-page .content-secundary ul li a, .secundary-page .content-secundary .content-reviews span{
+    color: var(--color7);
+}
+.secundary-page .content-secundary .ins-text p {
+    color: var(--color1) !important;
+}
+
+
+ .secundary-page .comp1-p h2, .comp3-p h2, .secundary-page .comp1 ul li {
+    color: var(--color1);
+}
+.secundary-page .comp1-p ul li, .secundary-page .comp1-p ul li a  {
+    color: var(--color1);
+}
+.secundary-page .container-btn a, .btn-sm{
+    background: var(--color2);
+    color: var(--color1);
+}
+.secundary-page .container-btn a:hover{
+    background: var(--color2);
+    color: var(--color1);
+}
+.btn-sm:hover{
+    background:  var(--color2);
+    color: var(--color1);
+}
+.secundary-page .content-secundary ul li a:hover{
+    color:  #22495A;
+}
+.secundary-page .content-secundary .content-payment span {
+    color: var(--color3);
+}
+.secundary-page .content-contact button{
+    background: var(--color4);
+    color: var(--color1);
+}
+.secundary-page .contact-p h3, .secundary-page .contact-p-hour h3 {
+    color: var(--color2);
+}
+.secundary-page .content-contact input, .secundary-page .content-contact textarea {
+    border: solid 1px var(--color3);
+}
+.secundary-page .airway2 p, .gray-bac p {
+    color:  var(--color7) !important;
+}
+.secundary-page .airway4-p h2 {
+    color: var(--color2) !important;
+}
+.secundary-page .content-secundary .who-benefit h3, .secundary-page .content-secundary .digital-smile h4 {
+    color: var(--color3) !important;
+}
+.contact-sqr1 {
+    background: var(--color5);
+}
+.contact-sqr2 {
+    background: var(--color5);
+}
+
+
+.tarjets {
+    background: var(--color1);
+}
+
+.pointer {
+    background: var(--color2);
+}
+.pointer h3 {
+    color:  var(--color1);
+}
+.pointer a {
+    color:  var(--color1);
+}
+/* reviews2 */
+.reviewws2 .rev-text {
+    background: var(--color7);
+}
+.reviewws2 .rev-text p {
+    color: var(--color1);
+}
+.reviewws2 .rev-text2 {
+    background: var(--color5);
+}
+.reviewws2 .container-right {
+    background: var(--color5);
+}
+.reviewws2 p {
+    color: var(--color7);
+}
+.reviewws2 ul li {
+    color:var(--color3);
+}
+.covvid p {
+    color:var(--color7);
+}
+.covvid h3 {
+    color:var(--color2) !important;
+}
+.covvid ul li {
+    color: var(--color7);
+}
+.reviewws .read-more:hover, .meet-doc .read-more:hover{
+    color: var(--color3) !important;
+}
+/* reviews3 */
+.reviewws3 h2 {
+    color: var(--color1);
+}
+
+/* reviews */
+/* content secundary */
+
+/* landing page */
+.btn-xl-lp{
+    background: var(--color3);
+    color: var(--color1);
+}
+.btn-xl-lp:hover{
+    background: var(--color1);
+    color: var(--color3);
+}
+.bg-blue{
+    background: var(--color3);
+}
+.bg-brown{
+    background: var(--color5);
+}
+.container-subtitle{
+    background: var(--color2);
+}
+.hero.lp h2{
+    color: var(--color3);
+}
+.hero.lp h2 span {
+    color: var(--color3);
+}
+.hero.lp h3 {
+    color: var(--color2);
+}
+@media (max-width: 767px){
+    .hero.lp h3 {
+        color: var(--color1);
+    }
+}
+.section-1 h2, .section-5 .title{
+   color: var(--color1);
+}
+.section-1 h2 span, .container-subtitle h1, .section-5 h1, .section-5 p, .section-5 ul li{
+    color: var(--color1);
+}
+.section-1 h5 {
+    color: var(--color3);
+}
+.section-1 hr{
+    border-top: 1px solid var(--color1);
+}
+.section-1 i {
+    color: var(--color2);
+}
+.section-2 hr{
+    border-top: 1px solid #B0A18D;
+}
+.section-2 ul li, .section-2 ul li span, .section-2 h1, .section-2 h2, .section-2 h3, .section-3 h2, .section-3 h3.title-dental, .section-3 ul span, .section-4 h2,  .section-4 ul li, .section-6 h1, .section-6 .text-implants span, .section-7 h1, .section-7 ul li {
+    color: var(--color3);
+}
+.section-2 p, .section-4 p, .section-6 p, .section-7 p{
+    color: #562e49;
+}
+.section-3 h3{
+    color: var(--color3);
+}
+.section-3 ul li{
+    color: var(--color3);
+}
+.section-6 hr, .section-7 hr{
+    border-top: 1px solid #B0A18D;
+}
+/* landing page */
+.text-green-5{
+    color: var(--color3) !important;
+}
+.secundary-philosophy p span {
+    color: var(--color7) !important;
+}
+.btn-appointment {
+    color: var(--color1);
+    border: 0px solid var(--color2a);
+    background: var(--color3);
+}
+.btn-appointment:hover{
+    color: var(--color1);
+    border: 0px solid #515963;
+    background: #515963;
+}
+.secundary-page .container-insurance h2{
+    color: var(--color1) !important;
+}

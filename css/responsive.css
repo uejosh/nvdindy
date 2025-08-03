@@ -1,0 +1,1507 @@
+/* globals */
+@media (max-width: 991px) {
+    a{
+        font-size: 13px !important;
+    }
+    .secundary-page .content-secundary ul li, .secundary-page .content-secundary ul li a, .secundary-page .content-secundary .content-reviews span{
+        font-size: 15px;
+    }
+    .services .border-container.left::before,
+    .services .border-container.right::after {
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        margin-top: 0px;
+    }
+    .fixed-top {
+      display: none;
+    }
+    .cont-address {
+        display: none !important;
+    }
+    .line-right{
+        border-right: none !important;
+    }
+    .container-hours ul li {
+        font-size: 14px;
+    }
+    /* .container-hours ul li:nth-child(1) {
+        width: 30vw;
+    } */
+    .container-hours p {
+        font-size: 14px;
+        margin: 15px 0px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .container-hours ul{
+        justify-content: center;
+    }
+    .home .p-body {
+        padding: 0px 7vw;
+    }
+    .home .p-body2 {
+        padding: 0px 0px !important;
+    }
+    .home .line-right {
+        border-right: none !important;
+    }
+    .secundary-page .reviews-body p, .home .reviews-body p {
+        font-size: 13px;
+        width: 90%;
+        line-height: 22px;
+    }
+    .home h1{
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .home h4 {
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .reviewws p,
+    .reviewws h3 {
+        font-size: 23px !important;
+        padding: 0 15px;
+    }
+    .meet-doc p {
+        font-size: 23px !important;
+    }
+    .meet-doc h3 {
+        font-size: 50px !important;
+        padding: 0 15px;
+    }
+    .fz-17, .fz-18, .fz-19{
+        font-size: 14px !important;
+    }
+    .secundary-philosophy .pr-5{
+        padding: 0 !important;
+    }
+    .secundary-philosophy .pl-4{
+        padding: 0 !important;
+    }
+    .testimonials .pr-5{
+        padding: 0 !important;
+    }
+    .testimonials .pl-4{
+        padding: 0 !important;
+    }
+    .ul-services ul {
+        width: 100%;
+    }
+    .ul-services ul h2{
+        text-align: left !important;
+    }
+    .sub-title{
+        font-size: 15px !important;
+        width: 100% !important;
+        line-height: 22px;
+    }
+    .text-green-5{
+        font-size: 20px !important;
+    }
+    .secundary-page .reviews-body, .home .reviews-body {
+        padding: 26vw 0px;
+    }
+}
+@media (max-width: 576px) {
+    .txt-appointment {
+        font-size: 17px !important;
+    }
+}
+/* globals */
+
+/* header */
+@media (min-width: 1100px) {
+    header nav {
+        justify-items: flex-end !important;
+        display: flex;
+        justify-content: flex-end !important;
+    }
+}
+@media (min-width: 965px) {
+    header nav {
+        justify-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+        padding-top: 0px;
+    }
+}
+@media (min-width: 768px) {
+    .hero .hero-sm img {
+        display: none;
+    }
+    .nav-logo-sm {
+        display: none !important;
+    }
+    .pb-lg-30{
+        padding-bottom: 30px;
+    }
+    .main-menu-btn {
+        position: absolute;
+        top: -99999px;
+    }
+    #main-menu-state:not(:checked)~#main-menu {
+        display: block;
+    }
+    .menu-items ul {
+        position: absolute;
+        width: 12em;
+    }
+    .menu-items li {
+        float: left;
+    }
+    .menu-items.sm-rtl li {
+        float: right;
+    }
+    .menu-items ul li,
+    .menu-items.sm-rtl ul li,
+    .menu-items.sm-vertical li {
+        float: none;
+    }
+    .menu-items a {
+        white-space: nowrap;
+    }
+    .menu-items ul a,
+    .menu-items.sm-vertical a {
+        white-space: normal;
+    }
+    .menu-items .sm-nowrap>li>a,
+    .menu-items .sm-nowrap>li> :not(ul) a {
+        white-space: nowrap;
+        font-size: 13px;
+        background: #4a525b;
+        color: white !important;
+    }
+    .menu-items .sm-nowrap>li>a:hover {
+        background: white;
+        color: #001D41 !important;
+    }
+    .menu-items {
+        background: transparent;
+    }
+    .menu-items a span.sub-arrow {
+        /* icon menu movil */
+        top: auto;
+        margin-top: 0;
+        bottom: 13px;
+        margin-left: -5px;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-width: 5px;
+        border-style: solid dashed dashed dashed;
+        border-color: #ccc transparent transparent transparent !important;
+        background: transparent;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+    .menu-items a.highlighted span.sub-arrow:before {
+        display: none;
+    }
+    .reviewws .rev-pic1-sm {
+        display: none;
+    }
+    .reviewws2 .rev-pic1-sm {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    header .location p {
+        font-size: 12px;
+    }
+    .menu-items a,
+    .menu-items a:hover,
+    .menu-items a:focus,
+    .menu-items a:active {
+        font-size: 15px;
+    }
+}
+@media (max-width: 767px) {
+    header .sm{
+        margin: 0;
+    }
+    .sm li {
+        margin: 0px!important;
+        padding: 0 10px;
+    }
+    .nav-logo-sm img {
+        margin-bottom: 6vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        width: 70%;
+        height: auto;
+    }
+    header .container-menu{
+        padding: 0;
+    }
+    header nav {
+        justify-content: flex-start !important;
+    }
+    header .location a {
+        margin-top: 10px;
+    }
+    .menu-items {
+        background: #404c56;
+    }
+    .nav-logo {
+       display: none !important;
+     }
+    header .container-menu{
+        display: initial !important;
+    }
+    header .line{
+        display: none;
+    }
+    header .container-logo img{
+        width: 75%;
+        height: auto;
+    }
+    header .phone{
+        padding: 5px 0px 5px 0vw;
+    }
+    header .phone a{
+        text-align: center;
+        font-size: 17px !important;
+    }
+    /*  header .social  {
+        margin-left: 30.5vw; 
+        display: none;
+    }*/
+    header .social ul {
+        /* margin-left: 30.5vw; */
+        display: none;
+        
+    }
+    header .google-star img {
+        /* width:85%;
+        height: auto; */
+        display: none !important;
+     }
+    header .address a {
+        display: none;
+    }
+
+    /*  Mobile menu bac!*/
+    header .container-menu{
+        background:#515963;
+    }
+
+}
+@media (max-width: 1100px) {
+    header .social ul {
+        margin-top: .2vw;
+        margin-right: -2vw;
+    }
+    header .google-star img {
+        width: 75%;
+        height: auto;
+     }
+}
+@media (max-width: 1310px) {
+    header .google-star{
+        display: none;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1300px) {
+    .sm, .sm ul, .sm li {
+        margin: 0px 3px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+    header nav {
+        justify-items: center !important;
+        display: flex;
+        justify-content: center !important;
+    }
+}
+@media (max-width: 1100px) {
+    header nav {
+        padding-right: 0vw;
+    }
+}
+/* header */
+
+/* hero */
+@media (max-width: 767px) {
+    .hero{
+        padding-top: 70px;
+    }
+    .hero .mt-sm{
+        margin-top: 50px;
+    }
+    .read-more{
+        font-size: 16px !important;
+    }
+    .hero img.google-stars {
+        padding-bottom: 0;
+        margin: 10px auto !important;
+    }
+    .hero .hero-bg img {
+        display: none;
+    }
+    .hero .container-text img {
+        width: 305px;
+        margin: auto !important;
+    }
+    .hero h2 {
+        font-family: Poppins-Light;
+        font-size: 53px;
+    }
+    .hero .google-stars {
+        max-width: 150px;
+    }
+    .hero .google-stars-text {
+        font-size: 18px;
+    }
+    .hero h3 {
+        font-size: 6.5vw;
+    }
+    .hero p {
+        display: none;
+    }
+    .mask-hero-sm {
+        background: #0000005c;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100%;
+    }
+    .hero .container-text{
+        padding-bottom: 0px;
+    }
+    /* .carousel-item {
+        margin-top: 215px;
+    } */
+    .container-google-star {
+        display: block !important;
+    }
+    footer .social a{
+        line-height: 23px;
+    }
+    .hero .container-text3 {
+        position: absolute;
+        left: 47vw;
+        top: 21vw;
+        padding-left: 0vw;
+        z-index: 1;
+    }
+    .hero .container-text3 img {
+        width: 50%;
+        height: auto;
+        z-index: 1;
+    }
+    .hero .container-text4 {
+        position: absolute;
+        left: 0vw;
+        top: 49vw !important;
+        padding-left: 0vw;
+        z-index: 1;
+    }
+    .hero .container-text4 h3 {
+        padding: 0 7vw 0 7vw;
+        margin-top: 14vw;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .hero .container-text4 h4 {
+        margin-top: 2vw;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .hero .container-text4 h5 {
+        margin-top: 4vw;
+        font-size: 16px;
+    }
+    .hero .container-text4 img {
+        margin-top: -23vw;
+        width: 36%;
+        height: auto;
+    }
+    .hero .container-text4a {
+        position: absolute;
+        left: 0vw;
+        top: 27vw;
+        padding-left: 0vw;
+        z-index: 1;
+    }
+    .hero .container-text4a h3 {
+        margin-top: 2vw;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    .hero .container-text5 h3 {
+        margin-top: 3vw;
+        font-size: 24px;
+    }
+    .hero .container-text5 h4 {
+        padding: 0 8vw 0 8vw;
+        margin-top: 2vw;
+        font-size: 17px;
+    }
+    .hero .container-text5 h4 span {
+        display: none;
+    }
+    .hero .container-text5 h5 {
+        margin-top: 4.5vw;
+        font-size: 16px;
+    }
+    .hero .container-text6 {
+        top: 49vw;
+    }
+    .hero .container-text6 h3 {
+        margin-top: 3vw;
+        font-size: 20px;
+    }
+    .hero .container-text6 h4 {
+        padding: 0 8vw 0 8vw;
+        margin-top: 2vw;
+        font-size: 14px;
+    }
+    .hero .container-text6 h4 span {
+        display: none;
+    }
+    .hero .container-text6 h5 {
+        margin-top: 4.5vw;
+        font-size: 16px;
+    }
+    .about p {
+        line-height: 23px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .about {
+        padding: 4vw 5vw 8vw;
+    }
+    .hero-reviews {
+        padding: 0px;
+    }
+    .hero .container-text .mb-img-sm{
+        margin-bottom: 45px !important;
+    }
+}
+@media (max-width: 576px) {
+    .hero h2 {
+        font-size: 32px;
+        margin-bottom: 35px !important;
+    }
+}
+/* hero */
+
+/* hero-reviews */
+@media (max-width: 767px) {
+    .hero-reviews .container-left, 
+    .hero-reviews .container-right {
+        padding: 40px 0 !important;
+    }
+    .hero-reviews .container-left {
+        padding: 7vw 5vw;
+    }
+    .hero-reviews .container-right img {
+        margin: auto;
+        display: block;
+    }
+    .review-author img {
+        margin: 0 16px 0 0 !important;
+    }
+    .hero-reviews h2 span {
+        font-size: 17px;
+    }
+    .hero-reviews h3 {
+        font-size: 17px;
+        margin-top: 0.5vw;
+        padding: 0 0vw 0 0vw;
+    }
+    .hero-reviews p,
+    .hero-reviews p.revv,
+    .hero-reviews .container-right .service-text {
+        font-size: 22px !important;
+        line-height: 35px !important;
+    }
+    .hero-reviews a {
+        font-size: 18px !important;
+    }
+    .hero-reviews .carousel {
+        margin-top: 64px !important;
+    }
+    header .btn-appointment-sm{
+        font-size: 21px !important;
+        font-family: Poppins-Regular;
+    }
+    .txt-appointment .icon {
+        height: 35px;
+        width: 35px;
+    }
+}
+@media (max-width: 576px) {
+    .hero-reviews h2 {
+        font-size: 29px !important;
+    }
+    .hero-reviews p,
+    .hero-reviews p.revv {
+        font-size: 18px !important;
+    }
+    .hero-reviews a,
+    .hero-reviews .container-right .service-text {
+        font-size: 14px !important;
+    }
+    .services h3 {
+        font-size: 24px;
+    }
+}
+/* hero-reviews */
+
+/* call-outs */
+@media (min-width: 1001px) {
+    .calls-outs .callz-img img{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+@media (max-width: 1000px) {
+    .calls-outs .callz-img img{
+        margin: 2vw 0 0 0 !important;
+        width: 100% !important;
+        height: auto;
+    }
+    .calls-outs hr {
+        margin-top: 1vw;
+        width: 100%;
+    }
+    .calls-outs h3 {
+        margin: 11px 0 0 0;
+        padding: 0 0 0 0;
+    }
+}
+@media (max-width: 1075px) {
+    #meet-doc-para {
+       display: none;
+    }
+}
+@media (max-width: 767px) {
+    .meet-doc h3 {
+        font-size: 21px !important;
+    }
+    .calls-outs{
+        padding: 45px 0px;
+        margin-top: 0px; 
+    }
+    .calls-outs .callz {
+        margin-top: 11vw; 
+    }
+    .calls-outs h3 {
+        font-size: 20px;
+        margin-top: 11px;
+    }
+    .calls-outs p {
+        font-size: 18px !important;
+    }
+    .calls-outs a {
+        margin-top: -12px;
+    }
+    .calls-outs hr {
+        margin-top: 2vw;
+        width: 100%;
+    }
+    .calls-outs .callz-img img{
+        margin-top: 14px;
+        width: 10vw;
+        height: auto;
+    }
+    .calls-outs .ico-call-outs {
+        margin-top: 10px;
+        width: 100px !important;
+        height: auto;
+    }
+    /* call-outs */
+    .patient-experience, .patient-experience2 {
+        margin-top: 17vw;
+    }
+    .patient-experience h2, .patient-experience2 h2{
+        font-size: 23px;
+        line-height: 120%;
+    }
+    .patient-experience h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .patient-experience p, .patient-experience2 p{
+        font-size: 15px;
+        font-weight: 300 !important;
+        line-height: 180% !important;
+        margin-top: 2.5vw;
+        margin-bottom: 3vw;
+        padding: 0 0 0 0;
+    }
+    .patient-experience2 h3{
+        font-size: 22px;
+        padding:0 13vw;
+        font-weight: 500;
+    }
+    .reviewws {
+        margin-top: 4vw !important;
+        padding: 40px 0 0px 0 !important;
+    }
+    .reviewws .rev-text {
+        padding: 2vh 6vh;
+    }
+    .reviewws2 .rev-text p {
+        font-size: 16px !important;
+    }
+    .reviewws .rev-pic1 {
+        background: url("https://www.nvdindy.com/images/home/revvs-1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .reviewws .rev-pic1-sm img {
+        padding: 0 0 0 0;
+        width: 100%;
+        height: auto
+    }
+    .reviewws .rev-pic2 {
+        background: url("https://www.nvdindy.com/images/home/revvs-2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .reviewws .rev-pic3 {
+        background: url("https://www.nvdindy.com/images/home/revvs-3.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .reviewws3 .rev-pic1 {
+        padding: 18vw 0;
+    }
+    .reviewws3 .rev-pic2 {
+        padding: 18vw 0;
+    }
+    .reviewws3 .rev-pic3 {
+        padding: 18vw 0;
+    }
+    .reviewws3 h2 {
+        font-size: 22px;
+        line-height: 160% !important;
+        margin-bottom: 1vw;
+        padding: 0 3vw 0 3vw;
+    }
+    .what-love h2{
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .what-love h3{
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .what-love img {
+        margin: 5vw 0 1vw 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 576px) {
+    .reviewws p,
+    .reviewws h3 {
+        font-size: 18px !important;
+    }
+}
+
+/* services */
+@media (min-width: 991px) {
+    .col-20{
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (max-width: 576px) {
+    .services h2 {
+        font-size: 30px !important;
+    }
+    .services p {
+        font-size: 18px !important;
+    }
+}
+/* services */
+
+/* doctor */
+@media (max-width: 767px) {
+    .meet-doc h2 {
+        font-size: 36px !important;
+    }
+    .meet-doc h4 {
+        font-size: 16px;
+    }
+    .meet-doc p {
+        font-size: 22px !important;
+    }
+    .meet-doc a {
+        font-size: 18px !important;
+    }
+    .meet-doc .meet-doc2 img {
+        display: none;
+    }
+    .meet-doc .meet-doc-pic img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+     }
+    .meet-doc .quotation-marks {
+        font-size: 85px !important;
+    }
+    .meet-doc p.text-white {
+        font-size: 18px !important;
+    }
+    .meet-doc-mid p {
+        text-align: center !important;
+        line-height: 170% !important;
+    }
+    .doctor p {
+        line-height: 23px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .doctor .container-text {
+        padding: 14vw 5vw;
+    }
+}
+@media (max-width: 576px) {
+    .meet-doc h2 {
+        font-size: 30px !important;
+    }
+    .meet-doc p {
+        font-size: 18px !important;
+    }
+    .meet-doc a {
+        font-size: 15px !important;
+    }
+}
+/* doctor */
+
+/* savings-plan */
+@media (max-width: 767px) {
+    .savings-plan h2 {
+        font-size: 41px !important;
+    }
+    .savings-plan p {
+        font-size: 22px !important;
+    }
+    .savings-plan a {
+        font-size: 18px !important;
+    }
+}
+@media (max-width: 576px) {
+    .savings-plan h2 {
+        font-size: 30px !important;
+    }
+    .savings-plan p {
+        font-size: 18px !important;
+    }
+    .savings-plan a {
+        font-size: 15px !important;
+    }
+}
+/* savings-plan */
+
+
+/* nu enhanced serv!! */
+@media (max-width: 767px) {
+    .hero .container-text5 {
+        
+        left: 0vw;
+        top: 60vw;
+    }
+    #ench-h3 {
+        padding: 0 5vw;
+    }
+    .content-secundary .invis-pic {
+        margin-top: -23vw;
+        margin-left: 3vw;
+    }
+    .content-secundary .dent-serv3-list {
+        margin-top: 6vw;
+        
+    }
+    .secundary-page .content-secundary .dent-serv ul li, .secundary-page .content-secundary .dent-serv2 ul li, .secundary-page .content-secundary .dent-serv3 ul li  {
+        font-size: 15px !important;
+    }
+    .secundary-page .content-secundary .encanc-top  {
+        margin-top: -29vw;
+    }
+    #ds-pic-bg {
+        display: none;
+     }
+    .btn-home5  {
+        padding: 8px 4vw 8px 4vw;
+        letter-spacing: 0px;
+    }
+}
+@media (min-width: 768px){
+    #ds-pic-sm {
+        display: none;
+    }
+    
+}
+/* nu enhanced serv!! */
+
+
+
+/* reviews */
+@media screen and (min-width: 991px) and (max-width: 1120px) {
+    .container-hours {
+        padding: 0px 3.5vw;
+    }
+}
+/* reviews */
+
+/* mapa */
+@media (min-width: 768px) {
+    .mapa .map-sm {
+       display: none;
+    }
+}
+@media (max-width: 767px) {
+    .mapa .map-bg {
+        display: none;
+    }
+}
+/* mapa */
+
+/* footer */
+@media (max-width: 767px) {
+    footer {
+        padding: 15vw 0 15vw 0 !important;
+    }
+    footer .foot-logo img {
+        margin-top: 35px;
+        margin-bottom: 15px;
+        width: 40%;
+        height: auto;
+    }
+    footer .phone {
+        margin-bottom: 3vw;
+    }
+    header .cont-social {
+        display: none !important;
+    }
+    footer .cont-social ul{
+        display: none !important;
+    }
+    header .appt a {
+        font-size: 20px !important;
+    }
+    footer .appt-foot h2, footer .container-hours h2  {
+        font-size: 18px;
+    }
+    footer .appt-foot h3 {
+        margin-top: 6vw;
+    }
+    footer .appt-foot h3 a {
+        font-size: 24px !important;
+    }
+    footer .appt-foot h4 {
+        margin-top: 6vw;
+        margin-bottom: 4vw;
+    }
+    footer .appt-foot h4 a {
+        font-size: 17px !important;
+        line-height: 120% !important;
+    }
+    .services {
+        margin-top: 0;
+    }
+    .container-hours {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 991px) {
+    footer .p-m{
+        padding: 50px 0px;
+    }
+    .container-hours {
+        padding: 0px 0vw;
+    }
+    footer span {
+        width: 185px;
+    }
+    footer .icon-footer i {
+        font-size: 17px;
+    }
+}
+/* footer */
+
+/* content secundary */
+@media (max-width: 991px) {
+    .secundary-page .content-secundary h2 {
+        margin-top: 25px;
+    }
+}
+@media (min-width: 768px) {
+    .covvid h3{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .secundary-page .carousel-item {
+        width: 100%;
+        height: 95vw;
+    }
+    .secundary-page .p-body {
+        padding: 0px 3vw;
+    }
+    .secundary-page .content-secundary h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .secundary-page .content-secundary h3 {
+        font-size: 14px;
+        line-height: 22px;
+        width: 90%;
+        margin: auto;
+    }
+    .secundary-page .content-secundary .about-text p {
+        margin-top: 6vw;
+        font-weight: 400;
+    }
+    .secundary-page .content-secundary .about-text h3 {
+        margin-top: 37px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .secundary-page .content-secundary p {
+        font-weight: 400;
+        font-size: 15px !important;
+    }
+    .secundary-page .content-secundary p span, .secundary-page .content-secundary .content-insurance p {
+        font-size: 15px !important;
+    }
+    
+    .office .title-line::before {
+        width: 100%;
+        top: 0px !important;
+        right: 0;
+    }
+    .office h1 {
+        margin-top: -32vw !important;
+    }
+    .office h4 {
+       text-align: center !important;
+       margin-bottom: 17px;
+    }
+    /* .secundary-page .content-secundary .gallery {
+        margin-top: -25vw !important;
+    } */
+    .secundary-page .content-secundary .blogg {
+        margin-top: -30vw !important;
+    }
+    .secundary-page .content-secundary .blog h2 {
+        margin-top: 14vw !important;
+        margin-bottom: -.5vw !important;
+    }
+    .secundary-page .content-secundary .title-line::before, .secundary-page .content-secundary {
+        width: 100%;
+        top: 50px;
+        right: 0;
+    }
+    .secundary-page .content-secundary h2 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    #pat-res-topp h2 {
+        margin-top: -8vw;
+    }
+    #pat-res-topp2 {
+        margin-top: -22vw;
+    }
+    #pat-res-topp2 h2 {
+        margin-top: -15vw;
+    }
+    #pat-res h2 {
+        margin-top: 22vw;
+    }
+    
+    .secundary-page .content-secundary .team-pics h4{
+        margin-top: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    .secundary-page .content-secundary .para-serv p{
+        font-size: 1.1vw;
+        font-weight: 400;
+        line-height: 140% !important;
+        margin-bottom: 25px;
+    }
+    
+    .secundary-page .content-secundary .philosophee h3 {
+        margin: -7px 0 0 0;
+        font-size: 17px !important;
+    }
+    .secundary-page .content-secundary .philosophee h4 {
+        font-size: 17px !important;
+    }
+    .secundary-page .content-secundary .philosophee h5 {
+        font-size: 16px !important;
+
+    }
+    .secundary-page .content-secundary .revvs h4 {
+        font-size: 17px !important;
+        padding: 0 0 0 0;
+        line-height: 140%;
+    }
+    .secundary-page .content-secundary .revvs img {
+        width: 40%;
+        height: auto;
+        margin-bottom: 3.5vw;
+    }
+    
+    .covvid h1{
+        display: none;
+    }
+    .covvid h4{
+        font-size: 16px;
+        padding: 0 3vw 0 3vw;
+    }
+    .covvid h2{
+        margin-top: 3vw !important;
+        font-size: 18px;
+        padding: 0 3vw 0 3vw;
+    }
+    .covvid p {
+        padding: 0 7vw 0 7vw;
+        font-size: 15px !important;
+    }
+    .covvid ul{
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        list-style: outside;
+        padding: 0 7vw 0 10vw;
+    }
+    .covvid ul li {
+        font-size: 15px !important;
+    }
+    .reviewws2 .rev-text {
+        padding: 6vw 7vw 6vw 7vw;
+    }
+    .reviewws2 .rev-text2 {
+        padding: 14vw 7vw 14vw 7vw;
+    }
+    .reviewws2 .rev-text2 img {
+        width: 25%;
+        height: auto;
+        margin-bottom: 1.5vw;
+        margin-left: 2.8vw;
+    }
+    .secundary-page .reviews-body p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 90%;
+    }
+    .secundary-page .content-secundary .content-reviews p {
+        font-size: 14px;
+    }
+    .secundary-page .comp3-p h2 {
+        font-size: 18px;
+    }
+    .tarjets {
+        padding: 5.5vw 0 5.5vw 0;
+    }
+    .secundary-page .content-secundary .digital-smile{
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        padding: 0 0 0 0;
+    }
+    .secundary-page .content-secundary .digital-smile h4 {
+        font-size: 17px;
+        line-height: 120%;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .secundary-page .content-secundary .digital-smile h4 a {
+        font-size: 17px !important;
+        
+    }
+    .secundary-page .content-secundary .digital-smile p {
+        font-weight: 400;
+        
+    }
+    .secundary-page .content-secundary .digital-smile-img2 img {
+        width: 100%;
+        height: auto;
+    }
+    .contact-sqr1 h4, .contact-sqr2 h4 {
+        font-size: 15px;
+    }
+    .secundary-page .content-secundary .airway {
+        margin-top: -19vw;
+    }
+    .secundary-page .content-secundary .airway p{
+        font-weight: 400;
+    }
+    .secundary-page .content-secundary .pat-res-top {
+        margin-top: 29vw;
+        padding-bottom: 7vw;
+    }
+    .secundary-page .content-secundary .pat-res-top2 {
+        margin-top: -39vw;
+        padding-bottom: 7vw;
+    }
+    
+    .secundary-page .content-secundary .airway2-img img {
+        width: 80%;
+        height: auto;
+    }
+    .secundary-page .content-secundary .airway2-p {
+        padding: 3vw 5vw 0vw 7vw;
+    }
+    .secundary-page .content-secundary .airway3-p {
+        padding: 3vw 5vw 0vw 7vw;
+    }
+    .secundary-page .airway4-p h2 {
+        font-size: 18px;
+    }
+    .secundary-page .airway4-p p {
+        font-size: 15px;
+    }
+    .airway4 {
+        padding: 0 2vw 0 7vw;
+     }
+     .secundary-page .content-secundary .who-benefit{
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        padding: 0 0 0 0;
+    }
+    .secundary-page .content-secundary .airway4-img img {
+        width: 100%;
+        height: auto;
+    }
+    .secundary-page .content-secundary .airway4-img2 img {
+        width: 100% !important;
+        height: auto;
+    }
+    .secundary-page .content-secundary .who-benefit h3{
+        padding-right: 0vw;
+        text-align: center;
+        font-size: 17px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .secundary-page .content-secundary .who-benefit-list {
+        padding-left: 5vw;
+     }
+     .secundary-page .content-secundary .who-benefit-list2 {
+        padding-left: 5vw;
+    }
+    .secundary-page .comp1-p h2 {
+        font-size: 18px;
+    }
+    .secundary-page .content-secundary .ortho2-img img {
+        margin-top: 5vw;
+        width: 100%;
+        height: auto;
+    }
+    .secundary-page .content-secundary .digital-smile-img img {
+        width: 100%;
+        height: auto;
+    }
+    .secundary-page .content-secundary .airway3-p ul li{
+        font-size: 15px;
+    }
+    .secundary-page .content-secundary .tmd1-img img {
+        margin-top: 5vw;
+        width: 90%;
+        height: auto;
+    }
+    .secundary-page .content-secundary .tmj-img img {
+        width: 90%;
+        height: auto;
+    }
+    .secundary-page .airway4-p p span {
+        font-size: 15px !important;
+    }
+    .secundary-page .page-intro {
+        padding: 30vw 0px 3vw 0px;
+    }
+    .secundary-page .map-pic img {
+        margin-top: -29vw;
+     }
+     .secundary-page .revv-googs img {
+        margin-top: -21vw;
+        margin-bottom: -5vw;
+        width: 45%;
+        height: auto;
+    }
+    .secundary-page .revvs-sm h4 {
+        margin-top: 0vw !important;
+    }
+    .secundary-page .contact-p h3 {
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        font-size: 20px;
+    }
+    .secundary-page .contact-p h4 a {
+        margin-top: 1vw;
+        font-size: 18px !important;
+    }
+    .secundary-page .contact-p h5 a {
+        font-size: 16px !important;
+    }
+    
+    .secundary-page .contact-p ul li{
+        font-size: 16px !important;
+    }
+    .secundary-page .contact-p ul li:nth-child(1) {
+        width: 22vw;
+    }
+    .secundary-page .contact-p p {
+        margin-top: 1vw;
+        font-size: 16px;
+        font-weight: 400;
+        width: 85% !important;
+    }
+
+    .pointer {
+        padding: 5vw 0 4vw 0;
+    }
+    .pointer h3 {
+        text-align: center;
+        padding: 0 6vw;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .pointer h3 a {
+        text-align: center;
+        font-size: 20px !important;
+    }
+    .btn-pointer{
+        color: #fff;
+        background: transparent;
+        border: 1px solid #fff;
+        margin-left: 27vw;
+        padding: 8px 12px 8px 12px !important;
+    }
+
+
+
+
+
+
+    .img-80 {
+        width: 215px;
+        margin-bottom: 20px;
+    }
+    .secundary-page .content-secundary .more-information {
+        font-size: 15px !important;
+        text-align: center;
+    }
+    .secundary-page .content-secundary h4 {
+        font-size: 18px;
+    }
+    .secundary-page .content-secundary .content-contact ul li {
+        font-size: 13px;
+    }
+    .secundary-page .content-contact button {
+        font-size: 12px;
+    }
+    .secundary-page .content-contact .text-appointment {
+        width: 100%;
+    }
+    .secundary-page .content-secundary .content-contact ul {
+        text-align: center;
+    }
+    
+}
+/* end content secundary */
+
+/* landing-page */
+@media (max-width: 991px) {
+    .btn-xl-lp span{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #lp-hero-sm{
+       display: none;
+    }
+}
+@media (max-width: 767px) {
+    #lp-hero-bg {
+        display: none;
+     }
+    .home.landing-page header{
+        position: relative;
+    }
+    .hero.lp img {
+        position: relative;
+        top: -25vw;
+        padding-bottom: 0vw;
+    }
+    .hero.lp .container-text5 {
+        top: 55vw;
+        padding-left: 0vw;
+        position: absolute;
+        text-align: left;
+    }
+    .hero.lp h2 span {
+        font-size: 2vw;
+    }
+    .section-1 {
+        margin-top: -27vw;
+    }
+    .section-1 .container-right{
+        padding: 5vw 5vw 4vw;
+    }
+    .section-1 .carousel-inner{
+        margin-top: -23vw;
+    }
+    
+    .section-1 h2, .section-1 h2 span {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .section-1 h5, .section-2 ul li {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .home.landing-page .section-2 h1 {
+        text-align: center;
+        line-height: 23px;
+    }
+    .section-2 h2 {
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        line-height: 23px;
+    }
+    .section-2 p, .section-3 h3, .section-3 p, .section-3 p span, .section-3 ul span, .section-3 ul li, .section-4 p, .section-4 p span, .section-4 ul li, .section-5 p, .section-5 ul li, .section-6 p, .section-6 p span, .section-7 p, .section-7 ul li, .section-7 .second-opinion p {
+        font-size: 14px;
+        line-height: 23px;
+        width: 100%;
+    }
+    .section-2 h3 {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        line-height: 23px;
+        margin-top: 55px;
+    }
+    .section-3 h2, .section-3 h2 span, .section-3 h3.title-dental, .section-7 h4, .section-7 h3, .section-7 h4 span {
+        font-size: 19px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .section-7 h3{
+        margin-top: 40px;
+    }
+    .section-5 .title {
+        margin-top: 25px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .section-3 .pl-5, .section-5 .pl-5{
+        padding-left: 0px !important;
+    }
+    .section-3 .pr-5, .section-5 .pr-5{
+        padding-right: 0px !important;
+    }
+    .section-3 .container-img img {
+        height: 26vw;
+    }
+    .section-4 h2 {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .section-5 .img-text{
+        width: 45%;
+        margin-right: 5vw;
+        margin-bottom: 2vw;
+    }
+    .section-6 p img {
+        width: 25%;
+    }
+    .section-6 .text-implants {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-6 .container-implants img {
+        height: 24vw;
+    }
+    .section-7 .p-5, .section-6 .p-5{
+        padding: 0px !important;
+    }
+}
+@media (max-width: 500px) {
+    .hero.lp .container-text {
+        top: -3vw;
+    }
+    .hero.lp h2 {
+        font-size: 4.263vw;
+    }
+    .hero.lp h2 span {
+        font-size: 3vw;
+    }
+    .hero-reviews .font-size-sm-20{
+        font-size: 20px !important;
+    }
+    .mb-h2-40{
+        margin-bottom: 40px !important;
+    }
+   /*  .fz-17, .fz-18, .fz-19 {
+        font-size: 11px !important;
+    } */
+}
+
+@media (max-width: 767px) {
+    .patient-resources .hero .container-text4 {
+        top: 23vw;
+    }
+    .contact-page .hero .container-text4 {
+        top: 32vw;
+    }
+    .secundary-page .contact-p-hour h3 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .reviewws2 .rev-text img{
+        width: 150px !important;
+        margin-bottom: 20px;
+    }
+    .video-tour iframe{
+        height: 350px;
+    }
+    .tour-page .hero .container-text4 {
+        top: 24vw;
+    }
+    .about-page .hero .container-text4 {
+        top: 22vw;
+    }
+    .service-page .hero .container-text4 {
+        top: 20vw;
+    }
+    .service-page, .contact-page {
+        overflow: hidden;
+    }
+    .reviews-page .hero .container-text4 {
+        top: 70vw !important;
+    }
+}

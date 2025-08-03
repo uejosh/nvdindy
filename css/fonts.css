@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Gotham-Book;
+    src: url('../fonts/Gotham-Book.ttf');
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('../fonts/Gotham-Bold.ttf');
+}
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('../fonts/Gotham-Medium.ttf');
+}
+@font-face {
+    font-family: Gotham-Light;
+    src: url('../fonts/Gotham-Light.ttf');
+}
+@font-face {
+    font-family: TrumpMediaeval-Roman;
+    src: url('https://www.nvdindy.com/fonts/TrumpMediaeval-Roman.ttf');
+}
+@font-face {
+    font-family: Segoe-UI;
+    src: url('https://www.nvdindy.com/fonts/Segoe-UI.ttf');
+}
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url('../fonts/MyriadPro-Regular.ttf');
+}
+@font-face {
+    font-family: AGBookRounded-Regular;
+    src: url('https://www.nvdindy.com/fonts/AG-Book-Rounded-Regular.ttf');
+}
+@font-face {
+    font-family: SpaceGrotesk-Light;
+    src: url('../fonts/SpaceGrotesk-Light.ttf');
+}
+@font-face {
+    font-family: MrsSaintDelafield-Regular;
+    src: url('../fonts/MrsSaintDelafield-Regular.ttf');
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: Poppins-Italic;
+    src: url('../fonts/Poppins-Italic.ttf');
+}
+@font-face {
+    font-family: Qwigley-Regular;
+    src: url('../fonts/Qwigley-Regular.ttf');
+}
